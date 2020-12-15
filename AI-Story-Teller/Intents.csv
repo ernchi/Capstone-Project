@@ -1,0 +1,58 @@
+strangle,Attack
+decapitate,Attack
+smash,Attack
+slash at,Attack
+fire at,Attack
+attack,Attack
+shoot the gun,Attack
+throw rock,Attack
+fire bow,Attack
+punch,Attack
+kick,Attack
+tackle,Attack
+hit,Attack
+wrestle,Attack
+stab,Attack
+Look closely at,Look
+Inspect object,Look
+Explore surroundings,Look
+Circle around the room,Look
+Stare out the window,Look
+Look up,Look
+Look to the left,Look
+Describe the environment,Look
+What does it look like?,Look
+Look around,Look
+Go backward,Movement
+Go right,Movement
+Jump,Movement
+Go forward,Movement
+Move forward,Movement
+Move left,Movement
+Move right,Movement
+Go left,Movement
+Walk around the room,Movement
+Run to the door,Movement
+Walk around the corner,Movement
+Take an object,Pick-Up-Object
+Pick up,Pick-Up-Object
+Take,Pick-Up-Object
+Grab,Pick-Up-Object
+Collect,Pick-Up-Object
+Steal,Pick-Up-Object
+Scoop up,Pick-Up-Object
+Steal the thing,Pick-Up-Object
+Pick up the thing,Pick-Up-Object
+Scoop up the stuff,Pick-Up-Object
+Grab a bunch,Pick-Up-Object
+Open window,Use-Object
+Unlock door,Use-Object
+deploy,Use-Object
+wield,Use-Object
+operate,Use-Object
+Interact with,Use-Object
+Utilize,Use-Object
+Activate the thing,Use-Object
+Activate,Use-Object
+Use the thing,Use-Object
+Use,Use-Object

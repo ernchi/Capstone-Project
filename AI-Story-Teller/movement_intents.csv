@@ -1,0 +1,143 @@
+throw fireball,Attack
+stab,Attack
+wrestle,Attack
+hit,Attack
+tackle,Attack
+kick,Attack
+punch,Attack
+fire bow,Attack
+throw rock,Attack
+shoot the gun,Attack
+attack,Attack
+fire at,Attack
+slash at,Attack
+smash,Attack
+decapitate,Attack
+strangle,Attack
+stab with needle,Attack
+slap,Attack
+punch monster in the face,Attack
+cast a deadly spell,Attack
+retrace my steps,Go-Back
+move backwards,Go-Back
+go back,Go-Back
+run backwards,Go-Back
+turn around and run back,Go-Back
+return to the previous room,Go-Back
+go back to where I came from,Go-Back
+move towards the east,Go-East
+move to the right side of the room,Go-East
+walk east,Go-East
+go east,Go-East
+go to the right,Go-East
+head towards the right,Go-East
+march to the right,Go-East
+head eastward,Go-East
+head towards the east,Go-East
+go eastward,Go-East
+walk eastward,Go-East
+run towards the right,Go-East
+walk to the right,Go-East
+run to the right,Go-East
+go to the east side,Go-East
+go frontward,Go-North
+go to the north side,Go-North
+go to the front,Go-North
+go north,Go-North
+move towards the front,Go-North
+run ahead,Go-North
+run to the front,Go-North
+walk forward,Go-North
+walk to the north side,Go-North
+walk northward,Go-North
+go northward,Go-North
+walk towards the north side,Go-North
+make a beeline to the northside of the room,Go-North
+run headfirst,Go-North
+march forward,Go-North
+wade forward,Go-North
+run northward,Go-North
+run forward,Go-North
+press forward,Go-North
+start moving forward,Go-North
+move northward,Go-North
+move forward,Go-North
+run to the far side of the room,Go-Opposite
+walk across the room,Go-Opposite
+run across the dungeon,Go-Opposite
+move towards the opposite side of the room,Go-Opposite
+go to the opposite side,Go-Opposite
+walk across the area,Go-Opposite
+run towards southern direction,Go-South
+go towards southern direction,Go-South
+go south,Go-South
+run south,Go-South
+move towards south,Go-South
+run towards south,Go-South
+walk towards south,Go-South
+go towards south,Go-South
+walk southward,Go-South
+run southward,Go-South
+move southward,Go-South
+go southward,Go-South
+move south,Go-South
+walk south,Go-South
+move along the southern direction,Go-South
+walk in a southern direction,Go-South
+run westward,Go-West
+move towards the far left,Go-West
+make a beeline towards the left side of the room,Go-West
+go towards the left,Go-West
+run to the left side of the dungeon,Go-West
+march to the left,Go-West
+head to the left,Go-West
+move towards the left,Go-West
+move to the west side,Go-West
+go westward,Go-West
+go leftward,Go-West
+go to the left side of the room,Go-West
+go left,Go-West
+walk towards the left,Go-West
+run to the left,Go-West
+What does it look like?,Look
+inspect surroundings,Look
+stare forward,Look
+gaze around,Look
+Look closely at,Look
+Inspect object,Look
+Explore surroundings,Look
+Circle around the room,Look
+Stare out the window,Look
+Look up,Look
+Look to the left,Look
+Describe the environment,Look
+Look around,Look
+walk around the room,Movement
+roam the area,Movement
+explore the area,Movement
+jog around the area,Movement
+move about,Movement
+move around the place,Movement
+pace around the dungeon,Movement
+Take,Pick-Up
+Steal the thing,Pick-Up
+Steal,Pick-Up
+Scoop up,Pick-Up
+Scoop up the stuff,Pick-Up
+Pick up the thing,Pick-Up
+Pick up,Pick-Up
+Grab a bunch,Pick-Up
+Grab,Pick-Up
+Collect,Pick-Up
+Take an object,Pick-Up
+Use,Use-Object
+Use the thing,Use-Object
+Open window,Use-Object
+Unlock door,Use-Object
+deploy,Use-Object
+wield,Use-Object
+operate,Use-Object
+Interact with,Use-Object
+Utilize,Use-Object
+Activate the thing,Use-Object
+Activate,Use-Object

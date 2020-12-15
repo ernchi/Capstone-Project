@@ -1,0 +1,864 @@
+{
+  "intents": [
+    {
+      "intent": "Attack",
+      "examples": [
+        {
+          "text": "attack"
+        },
+        {
+          "text": "cast a deadly spell"
+        },
+        {
+          "text": "decapitate"
+        },
+        {
+          "text": "fire at"
+        },
+        {
+          "text": "fire bow"
+        },
+        {
+          "text": "hit"
+        },
+        {
+          "text": "kick"
+        },
+        {
+          "text": "punch"
+        },
+        {
+          "text": "punch monster in the face"
+        },
+        {
+          "text": "shoot the gun"
+        },
+        {
+          "text": "slap"
+        },
+        {
+          "text": "slash at"
+        },
+        {
+          "text": "smash"
+        },
+        {
+          "text": "stab"
+        },
+        {
+          "text": "stab with needle"
+        },
+        {
+          "text": "strangle"
+        },
+        {
+          "text": "tackle"
+        },
+        {
+          "text": "throw fireball"
+        },
+        {
+          "text": "throw rock"
+        },
+        {
+          "text": "wrestle"
+        }
+      ]
+    },
+    {
+      "intent": "Go-Back",
+      "examples": [
+        {
+          "text": "go back"
+        },
+        {
+          "text": "go back to where I came from"
+        },
+        {
+          "text": "move backwards"
+        },
+        {
+          "text": "retrace my steps"
+        },
+        {
+          "text": "return to the previous room"
+        },
+        {
+          "text": "run backwards"
+        },
+        {
+          "text": "turn around and run back"
+        }
+      ],
+      "description": "Player goes back to previous room"
+    },
+    {
+      "intent": "Go-East",
+      "examples": [
+        {
+          "text": "go east"
+        },
+        {
+          "text": "go eastward"
+        },
+        {
+          "text": "go to the east side"
+        },
+        {
+          "text": "head eastward"
+        },
+        {
+          "text": "head towards the east"
+        },
+        {
+          "text": "move towards the east"
+        },
+        {
+          "text": "walk east"
+        },
+        {
+          "text": "walk eastward"
+        }
+      ],
+      "description": "Player goes east"
+    },
+    {
+      "intent": "Go-Forward",
+      "examples": [
+        {
+          "text": "go forward"
+        },
+        {
+          "text": "go towards the front"
+        },
+        {
+          "text": "move forward"
+        },
+        {
+          "text": "run to the front"
+        },
+        {
+          "text": "walk a few steps forward"
+        },
+        {
+          "text": "walk forward"
+        }
+      ],
+      "description": "Player moves forward"
+    },
+    {
+      "intent": "Go-Left",
+      "examples": [
+        {
+          "text": "enter the left side of the room"
+        },
+        {
+          "text": "go left"
+        },
+        {
+          "text": "go the the left"
+        },
+        {
+          "text": "run to the left"
+        },
+        {
+          "text": "turn around and go left"
+        },
+        {
+          "text": "walk to the left"
+        }
+      ],
+      "description": "Player goes to the left side "
+    },
+    {
+      "intent": "Go-North",
+      "examples": [
+        {
+          "text": "go north"
+        },
+        {
+          "text": "go northward"
+        },
+        {
+          "text": "go to the north side"
+        },
+        {
+          "text": "make a beeline to the northside of the room"
+        },
+        {
+          "text": "move northward"
+        },
+        {
+          "text": "press forward"
+        },
+        {
+          "text": "run northward"
+        },
+        {
+          "text": "walk northward"
+        },
+        {
+          "text": "walk to the north side"
+        },
+        {
+          "text": "walk towards the north side"
+        }
+      ],
+      "description": "Player goes north"
+    },
+    {
+      "intent": "Go-Opposite",
+      "examples": [
+        {
+          "text": "go to the opposite side"
+        },
+        {
+          "text": "move towards the opposite side of the room"
+        },
+        {
+          "text": "run across the dungeon"
+        },
+        {
+          "text": "run to the far side of the room"
+        },
+        {
+          "text": "walk across the area"
+        },
+        {
+          "text": "walk across the room"
+        },
+        {
+          "text": "walk in the opposite direction"
+        }
+      ],
+      "description": "Player goes in the opposite direction "
+    },
+    {
+      "intent": "Go-Right",
+      "examples": [
+        {
+          "text": "go right"
+        },
+        {
+          "text": "go to the right"
+        },
+        {
+          "text": "go towards the right"
+        },
+        {
+          "text": "run to the right"
+        },
+        {
+          "text": "turn around and go right"
+        },
+        {
+          "text": "walk to the right"
+        }
+      ],
+      "description": "Player moves to the right"
+    },
+    {
+      "intent": "Go-South",
+      "examples": [
+        {
+          "text": "go down"
+        },
+        {
+          "text": "go south"
+        },
+        {
+          "text": "go southward"
+        },
+        {
+          "text": "go towards south"
+        },
+        {
+          "text": "go towards southern direction"
+        },
+        {
+          "text": "move along the southern direction"
+        },
+        {
+          "text": "move south"
+        },
+        {
+          "text": "move southward"
+        },
+        {
+          "text": "move towards south"
+        },
+        {
+          "text": "run south"
+        },
+        {
+          "text": "run southward"
+        },
+        {
+          "text": "run towards south"
+        },
+        {
+          "text": "run towards southern direction"
+        },
+        {
+          "text": "walk in a southern direction"
+        },
+        {
+          "text": "walk south"
+        },
+        {
+          "text": "walk southward"
+        },
+        {
+          "text": "walk towards south"
+        }
+      ],
+      "description": "Player goes south"
+    },
+    {
+      "intent": "Go-West",
+      "examples": [
+        {
+          "text": "go west"
+        },
+        {
+          "text": "go westward"
+        },
+        {
+          "text": "head to the west"
+        },
+        {
+          "text": "move to the west side"
+        },
+        {
+          "text": "move towards the west"
+        },
+        {
+          "text": "run to the west"
+        },
+        {
+          "text": "run westward"
+        }
+      ],
+      "description": "Player goes west"
+    },
+    {
+      "intent": "Look",
+      "examples": [
+        {
+          "text": "Circle around the room"
+        },
+        {
+          "text": "Describe the environment"
+        },
+        {
+          "text": "Explore surroundings"
+        },
+        {
+          "text": "gaze around"
+        },
+        {
+          "text": "Inspect object"
+        },
+        {
+          "text": "inspect surroundings"
+        },
+        {
+          "text": "Look around"
+        },
+        {
+          "text": "Look closely at"
+        },
+        {
+          "text": "Look to the left"
+        },
+        {
+          "text": "Look up"
+        },
+        {
+          "text": "stare forward"
+        },
+        {
+          "text": "Stare out the window"
+        },
+        {
+          "text": "What does it look like?"
+        }
+      ]
+    },
+    {
+      "intent": "Movement",
+      "examples": [
+        {
+          "text": "explore the area"
+        },
+        {
+          "text": "jog around the area"
+        },
+        {
+          "text": "move about"
+        },
+        {
+          "text": "move around the place"
+        },
+        {
+          "text": "pace around the dungeon"
+        },
+        {
+          "text": "roam the area"
+        },
+        {
+          "text": "walk around the room"
+        }
+      ],
+      "description": "Player walks around, not in any specific direction"
+    },
+    {
+      "intent": "Pick-Up",
+      "examples": [
+        {
+          "text": "Collect"
+        },
+        {
+          "text": "Grab"
+        },
+        {
+          "text": "Grab a bunch"
+        },
+        {
+          "text": "Pick up"
+        },
+        {
+          "text": "Pick up the thing"
+        },
+        {
+          "text": "Scoop up"
+        },
+        {
+          "text": "Scoop up the stuff"
+        },
+        {
+          "text": "Steal"
+        },
+        {
+          "text": "Steal the thing"
+        },
+        {
+          "text": "Take"
+        },
+        {
+          "text": "Take an object"
+        }
+      ],
+      "description": "Player picks up object"
+    },
+    {
+      "intent": "Use-Object",
+      "examples": [
+        {
+          "text": "Activate"
+        },
+        {
+          "text": "Activate the thing"
+        },
+        {
+          "text": "deploy"
+        },
+        {
+          "text": "Interact with"
+        },
+        {
+          "text": "Open window"
+        },
+        {
+          "text": "operate"
+        },
+        {
+          "text": "Unlock door"
+        },
+        {
+          "text": "Use"
+        },
+        {
+          "text": "Use the thing"
+        },
+        {
+          "text": "Utilize"
+        },
+        {
+          "text": "wield"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "door",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "door",
+          "synonyms": [
+            "back door",
+            "doorway",
+            "gate",
+            "gateway",
+            "locked door",
+            "side door",
+            "sliding door"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "key",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "key",
+          "synonyms": [
+            "master key",
+            "pass key"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "go-east",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-east"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-East",
+      "dialog_node": "node_10_1602819806897",
+      "previous_sibling": "node_4_1602819767268"
+    },
+    {
+      "type": "standard",
+      "title": "look",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "look"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Look",
+      "dialog_node": "node_2_1603318377175",
+      "previous_sibling": "node_7_1603318430543"
+    },
+    {
+      "type": "standard",
+      "title": "go-right",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-right"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-Right",
+      "dialog_node": "node_2_1604172028023",
+      "previous_sibling": "node_7_1604172014417"
+    },
+    {
+      "type": "standard",
+      "title": "go-west",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-west"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-West",
+      "dialog_node": "node_3_1602819830852",
+      "previous_sibling": "node_10_1602819806897"
+    },
+    {
+      "type": "standard",
+      "title": "anything-else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "anything-else"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "node_4_1600203471771",
+      "previous_sibling": "node_7_1602789568921"
+    },
+    {
+      "type": "standard",
+      "title": "go-south",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-south"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-South",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1602819767268",
+      "previous_sibling": "node_9_1602819702200"
+    },
+    {
+      "type": "standard",
+      "title": "go-back",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-back"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-Back",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1602828107948",
+      "previous_sibling": "node_9_1604171994101"
+    },
+    {
+      "type": "standard",
+      "title": "go-opposite",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-opposite"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-Opposite",
+      "dialog_node": "node_5_1604172045916",
+      "previous_sibling": "node_2_1604172028023"
+    },
+    {
+      "type": "standard",
+      "title": "test-object detection",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Player interacted with door"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Use-Object && @door",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1602788269885",
+      "previous_sibling": "node_5_1604172045916"
+    },
+    {
+      "type": "standard",
+      "title": "test-key-detection",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Picked up key"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Pick-Up-Object && @key",
+      "dialog_node": "node_7_1602789568921",
+      "previous_sibling": "node_7_1602788269885"
+    },
+    {
+      "type": "standard",
+      "title": "pick-up",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "pick-up"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Pick-Up",
+      "dialog_node": "node_7_1603318430543",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "go-left",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-left"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-Left",
+      "dialog_node": "node_7_1604172014417",
+      "previous_sibling": "node_5_1602828107948"
+    },
+    {
+      "type": "standard",
+      "title": "go-north",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-north"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-North",
+      "dialog_node": "node_9_1602819702200",
+      "previous_sibling": "node_2_1603318377175"
+    },
+    {
+      "type": "standard",
+      "title": "go-forward",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "go-forward"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Go-Forward",
+      "dialog_node": "node_9_1604171994101",
+      "previous_sibling": "node_3_1602819830852"
+    },
+    {
+      "type": "standard",
+      "title": "game-start",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You wake up in an unfamiliar location. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "Generate Story",
+  "language": "en",
+  "description": ""
+}
